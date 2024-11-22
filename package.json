@@ -1,0 +1,19 @@
+{
+  "name": "practical-management-system",
+  "version": "1.0.0",
+  "description": "Practical management system backend project using node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":"cd api && node index.js",
+   "dev":"cd api && nodemon index.js"
+  },
+  "author": "Prashant Khandikar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7"
+  }
+}
